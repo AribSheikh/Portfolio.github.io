@@ -71,7 +71,16 @@ body {
   text-align: left;
   background-color: #fff;
 }
+.logo{
+  content:url("../imgs/logow.png");
 
+  height: 5vh;
+  width: 10vh;
+}
+.custom-navbar.affix .logo{
+  content:url("../imgs/logoC.png");
+
+}
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -11710,9 +11719,6 @@ pre .code {
   border-bottom: 1px solid rgba(222, 226, 230, 0.34);
 }
 
-.custom-navbar.affix .logo {
-  color: #695aa6;
-}
 
 .custom-navbar.affix .container {
   min-height: 65px;
