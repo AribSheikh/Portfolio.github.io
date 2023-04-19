@@ -73,9 +73,8 @@ body {
 }
 .logo{
   content:url("../imgs/logow.png");
-
-  height: 5vh;
-  width: 10vh;
+  height: 5%;
+  width: 11%;
 }
 .custom-navbar.affix .logo{
   content:url("../imgs/logoC.png");
